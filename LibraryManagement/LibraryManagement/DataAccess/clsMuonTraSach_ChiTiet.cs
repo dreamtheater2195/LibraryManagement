@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace QuanLyThuVien
 {
-	public class clsMuonTraSach_ChiTiet : clsDBInteractionBase
+	public partial class clsMuonTraSach_ChiTiet : clsDBInteractionBase
 	{
 		#region Class Member Declarations
 			private SqlInt32		m_iSoLuong, m_iID_Sach, m_iID_MuonSach;

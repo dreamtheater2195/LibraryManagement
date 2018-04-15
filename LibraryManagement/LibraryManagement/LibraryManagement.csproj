@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessExtensions\clsDM_Sach_Extension.cs" />
+    <Compile Include="DataAccessExtensions\clsMuonTraSach_ChiTiet_Extension.cs" />
+    <Compile Include="DataAccessExtensions\clsMuonTraSach_Extension.cs" />
+    <Compile Include="DataAccessExtensions\clsTaiKhoanDangNhap_Extension.cs" />
     <Compile Include="DataAccess\clsConnectionProvider.cs" />
     <Compile Include="DataAccess\clsDBInteractionBase.cs" />
     <Compile Include="DataAccess\clsDM_DocGia.cs" />
@@ -51,16 +55,35 @@
     <Compile Include="DataAccess\clsMuonTraSach.cs" />
     <Compile Include="DataAccess\clsMuonTraSach_ChiTiet.cs" />
     <Compile Include="DataAccess\clsTaiKhoanDangNhap.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhieuMuon.Designer.cs">
+      <DependentUpon>frmPhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariables.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieuMuon.resx">
+      <DependentUpon>frmPhieuMuon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace QuanLyThuVien
 {
-	public class clsDM_Sach : clsDBInteractionBase
+	public partial class clsDM_Sach : clsDBInteractionBase
 	{
 		#region Class Member Declarations
 			private SqlBoolean		m_bTonTai;
