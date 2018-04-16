@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement
 {
-    class GlobalVariables
+    public static class GlobalVariables
     {
         public static int ID_TaiKhoanDangNhap;
         public static string TenDangNhap;
+        public static string TenDayDu;
     }
 }
